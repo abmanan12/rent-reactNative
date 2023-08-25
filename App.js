@@ -13,7 +13,7 @@ export default function App() {
   return (
     <>
 
-      <StatusBar barStyle='default' backgroundColor= {colors.warning} />
+      <StatusBar barStyle='default' backgroundColor= {colors.info} />
       <AuthContextProvider>
         <ProductContextProvider>
           <FilterContextProvider>
