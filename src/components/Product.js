@@ -7,7 +7,7 @@ export default function Product() {
     return (
         <View style={{ flexDirection: 'row', flexWrap: 'wrap', marginHorizontal: 5 }}>
             <Card style={{ width: '48%', marginHorizontal: 3, marginTop: 5 }} mode='elevated'>
-                <Card.Cover style={{ height: 150, }} source={require('../assets/images/RLogo.jpeg')} />
+                <Card.Cover style={{ height: 150, }} source={require('../assets/images/logo1.png')} />
                 <Card.Content style={{ marginTop: 5 }}>
                     <Text variant="titleLarge" style={{ marginVertical: 10 }}>Lorem ipsum dolor sit, amet</Text>
                     <Text variant="bodyMedium">10000</Text>

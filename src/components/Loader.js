@@ -12,15 +12,15 @@ export default function Loader() {
     return (
         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
-            <View style={{ top: -75 }}>
+            <View>
                 <LogoImage />
             </View>
 
-            <View>
+            <View style={{top: 75}}>
                 <Spinner isVisible={true} size={50} type="9CubeGrid" color={colors.info} />
             </View>
 
-            <Text style={{ marginTop: 20, color: colors.info, fontSize: 14 }}>Loading...</Text>
+            <Text style={{ marginTop: 95, color: colors.info, fontSize: 14 }}>Loading...</Text>
 
         </View>
     )

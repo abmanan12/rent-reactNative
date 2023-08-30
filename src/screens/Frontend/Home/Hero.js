@@ -11,7 +11,7 @@ export default function Hero({ navigation }) {
   const { recentProducts, onRefresh, refreshing } = useProductContext()
 
   const LogoImage = () => {
-    return <Image style={styles.img} source={require('../../../assets/images/rent.png')} />
+    return <Image style={styles.img} source={require('../../../assets/images/rents.png')} />
   }
 
   return (
